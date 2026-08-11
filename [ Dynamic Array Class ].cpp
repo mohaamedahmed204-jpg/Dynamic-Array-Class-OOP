@@ -3,18 +3,14 @@
 
 using namespace std;
 
-int main()
-{
-    cout << "\n===== Dynamic Array Full Test =====\n\n";
-
+int main() {
     clsDynamicArray <int> MyDynamicArray(5);
 
     cout << "Initial Size : " << MyDynamicArray.Size() << endl;
     cout << "Is Empty ? " << MyDynamicArray.IsEmpty() << endl;
 
     cout << "\n--- Setting Initial Values ---\n";
-    for (int i = 0; i < MyDynamicArray.Size(); i++)
-    {
+    for (int i = 0; i < MyDynamicArray.Size(); i++) {
         MyDynamicArray.SetItem(i, (i + 1) * 10);
     }
 
@@ -60,13 +56,9 @@ int main()
     cout << "\n--- Find(99) ---\n";
     int index = MyDynamicArray.Find(99);
     if (index != -1)
-    {
         cout << "99 found at index : " << index << endl;
-    }
     else
-    {
         cout << "99 not found\n";
-    }
 
     cout << "\n--- DeleteItem(99) ---\n";
     MyDynamicArray.DeleteItem(99);
@@ -89,9 +81,6 @@ int main()
     cout << "Size after Clear : " << MyDynamicArray.Size() << endl;
     cout << "Is Empty ? " << MyDynamicArray.IsEmpty() << endl;
     MyDynamicArray.PrintList();
-
-    cout << "\n===== End of Test =====\n";
-
-    system("pause>0");
+    
     return 0;
 }
