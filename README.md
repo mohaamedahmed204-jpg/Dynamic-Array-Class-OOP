@@ -4,7 +4,7 @@ A robust, header-only generic implementation of a **Dynamic Array** built from s
 
 ---
 
-## ✨ Features
+## ✨ Features.         
 
 * **Generic/Template Support (`template <class T>`)**: Works with any data type (`int`, `string`, `float`, custom classes, etc.).
 * **Dynamic Resizing**: Automatically handles memory allocation and resizing (`Resize`).
