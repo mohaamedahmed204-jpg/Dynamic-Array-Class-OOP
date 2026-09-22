@@ -49,10 +49,10 @@ This implementation focuses on safety, efficiency, and fundamental C++ concepts:
 
 ## 🌐 Platform
 
-Programming Advices
+* Programming Advices
 https://programmingadvices.com
 
-Instructor: Dr. Mohammed Abu-Hadhoud
+* Instructor: Dr. Mohammed Abu-Hadhoud
 
 ## 👨‍💻 Author
 
