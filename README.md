@@ -56,4 +56,5 @@ https://programmingadvices.com
 
 ## 👨‍💻 Author
 
-Developed by Mohamed Ahmed to master C++ memory management and data structure implementation.
+* Developed by Mohamed Ahmed Gwiada
+* To master C++ memory management and data structure implementation.
